@@ -1,0 +1,28 @@
+.weather-wrapper {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 5%;
+  .back-and-title {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    b {
+      cursor: pointer;
+      background-color: #a5bbdd;
+      padding: 12px;
+      border-radius: 8px;
+      transition: background-color 150ms linear;
+      &:hover {
+        background-color: #9fbff0;
+      }
+    }
+  }
+  .weather-list {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+  }
+}

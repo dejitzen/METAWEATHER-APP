@@ -1,0 +1,9 @@
+version: "3.8"
+
+services:
+  app:
+    container_name: metaweather-container
+    image: metaweather-image
+    build:
+      context: .
+      target: production
